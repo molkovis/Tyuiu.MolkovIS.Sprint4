@@ -7,7 +7,7 @@ namespace Tyuiu.MolkovIS.Sprint4.Task0.V19.Lib
         public int GetMultOddArrEl(int[] array)
         {
             int proiz = 1;
-            for (int i = 0; i <= array.Length; i++)
+            for (int i = 0; i < array.Length; i++)
             {
                 if (array[i] % 2 != 0)
                 {
