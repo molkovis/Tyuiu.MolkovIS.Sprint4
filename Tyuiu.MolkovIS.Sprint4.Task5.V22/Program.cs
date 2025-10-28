@@ -37,5 +37,6 @@ internal class Program
         Console.WriteLine("***************************************************************************");
         Console.WriteLine(dataService.Calculate(data));
         Console.ReadKey();
+        Console.ReadKey();
     }
 }
